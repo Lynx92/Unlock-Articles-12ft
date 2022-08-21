@@ -1,0 +1,21 @@
+{
+  "name": "Unlock Articles - 12ft",
+  "action": {},
+  "version": "1.0.0",
+  "description": "Unlock paywalled articles with 12ft",
+  "manifest_version": 3,
+  "author": "Gabriel Belmonte",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "commands": {
+    "unlock-now-with-12ft": {
+      "suggested_key": "Ctrl+Shift+U",
+      "description": "Unlock now with 12ft"
+    }
+  }
+}
